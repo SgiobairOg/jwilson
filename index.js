@@ -7,12 +7,14 @@ const locale = require('os-locale');
 
 const t10s = {
 	'en' : {
-		'title': 'Senior Frontend Developer',
-		'office': 'Lucerne, Switzerland'
+		'title': `Senior Frontend Developer`,
+		'office': `Lucerne, Switzerland`,
+		'hiring': `We're hiring! `
 	},
 	'de' : {
-		'title': 'Senior Frontend-Entwickler',
-		'office': 'Luzern, Schweiz'
+		'title': `Senior Frontend-Entwickler`,
+		'office': `Luzern, Schweiz`,
+		'hiring': `Wir stellen ein! `
 	}
 }
 
@@ -25,11 +27,14 @@ const displayCard = ( lang = 'en' ) => {
 				${chalk.magenta('Jason Wilson')}
 				${chalk.blue.bold(t10s[lang].title)}
 				${chalk.blue('Cultural Care AuPair / Education First')}
+				${chalk.gray('jason.wilson@ef.com')}
 				${chalk.gray(t10s[lang].office)}
 
 				${chalk.gray('https://www.wilsons.io')}
 				${chalk.gray('https://twitter.com/wilsonuponsea')}
 				${chalk.gray('https://www.github.com/sgiobairog')}
+
+				${chalk.blue(`${t10s[lang].hiring} http://app.jobvite.com/m?3YMLbkwv`)}
 			`,
 			{
 				borderColor: "blue",
