@@ -1,6 +1,6 @@
 {
   "name": "jwilson",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "NPX Business card, with current contacts and information about Jason Wilson",
   "main": "index.js",
   "scripts": {
