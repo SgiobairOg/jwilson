@@ -3,6 +3,5 @@
 
 ```
 npx jwilson
-npx jasonwilson
-npx jprw
 ```
+![Screen capture of the business card output by the npx jwilson command in NPM](/assets/img/demo.png?raw=true)
