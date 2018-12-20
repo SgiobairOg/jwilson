@@ -35,6 +35,7 @@
   "dependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
-    "common-tags": "^1.8.0"
+    "common-tags": "^1.8.0",
+    "os-locale": "^3.0.1"
   }
 }
