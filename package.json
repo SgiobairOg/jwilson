@@ -4,11 +4,17 @@
   "description": "NPX Business card, with current contacts and information about Jason Wilson",
   "main": "index.js",
   "scripts": {
+	"postversion": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sgiobairog/jwilson.git"
+  },
+  "bin": {
+	  "jwilson": "index.js",
+	  "jasonwilson": "index.js",
+	  "jprw": "index.js"
   },
   "keywords": [
     "npx",
@@ -16,7 +22,11 @@
     "Jason",
     "Wilson"
   ],
-  "author": "Jason Wilson <jason@wilsons.io>",
+  "author": {
+	  "email": "jason@wilsons.io",
+	  "name": "Jason Wilson",
+	  "url": "https://github.com/sgiobairog"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sgiobairog/jwilson/issues"
