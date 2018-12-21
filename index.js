@@ -10,12 +10,12 @@ const t10s = {
 	'en' : {
 		'title': `Senior Frontend Developer`,
 		'office': `Lucerne, Switzerland`,
-		'hiring': `We're hiring! `
+		'hiring': `We're hiring! Developers and more!`
 	},
 	'de' : {
 		'title': `Senior Frontend-Entwickler`,
 		'office': `Luzern, Schweiz`,
-		'hiring': `Wir stellen ein! `
+		'hiring': `Wir stellen ein! Entwicklerinnen und mehr!`
 	}
 }
 
@@ -37,7 +37,7 @@ const displayCard = ( lang = 'en' ) => {
 				${chalk.gray(link('https://twitter.com/wilsonuponsea', 'https://twitter.com/wilsonuponsea', {fallback: urlAsText}))}
 				${chalk.gray(link('https://www.github.com/sgiobairog','https://www.github.com/sgiobairog', {fallback: urlAsText}))}
 
-				${chalk.blue(`${t10s[lang].hiring} ${link('Frontenders and more.','http://app.jobvite.com/m?3YMLbkwv')}`)}
+				${chalk.blue(`${link(t10s[lang].hiring,'http://app.jobvite.com/m?3YMLbkwv')}`)}
 			`,
 			{
 				borderColor: "blue",
